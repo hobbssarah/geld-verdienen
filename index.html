@@ -1,0 +1,1555 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-16692097967"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-16692097967');
+</script>
+<!-- Event snippet for pixel conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-16692097967/dkwfCO6Ot9AZEK_ntJc-',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
+
+
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MOBIHUB lite</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=B612:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+  <style>
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    
+    .slider__rails::-webkit-scrollbar {
+      display: none;
+    }
+    
+    * {
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    /* Hide scrollbar for IE, Edge and Firefox */
+    
+    .slider__rails {
+      -ms-overflow-style: none;
+      /* IE and Edge */
+      scrollbar-width: none;
+      /* Firefox */
+    }
+  </style>
+  <style>
+    .community-logo__marquee__outer-wrapper {
+      overflow: hidden;
+    }
+    
+    .community-logo__marquee__outer-wrapper-second {
+      overflow: hidden;
+    }
+    
+    .community-logo__marquee__outer-wrapper-2 {
+      overflow: hidden;
+    }
+    
+    .community-logo__marquee__outer-wrapper-second-2 {
+      overflow: hidden;
+    }
+  
+  </style>
+  <style>
+    [fs-cc="banner"],
+    [fs-cc="manager"],
+    [fs-cc="preferences"],
+    [fs-cc="interaction"] {
+      display: none
+    }
+  </style>
+  <style>
+
+.fab[data-v-91ccf3ff] {
+    bottom: 69px;
+    cursor: pointer;
+    display: block;
+    position: fixed;
+    right: 6px;
+    transition-duration: .3s;
+    z-index: 500
+}
+
+@media (min-width:768px) {
+    .fab[data-v-91ccf3ff] {
+        right: 50px
+    }
+}
+
+.fab__inner>div[data-v-91ccf3ff] {
+    align-items: center;
+    background: #3683b60d;
+    border-radius: 50%;
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    transition: width .3s;
+    width: 80px
+}
+
+.fab__inner>div.extended[data-v-91ccf3ff] {
+    background-color: transparent;
+    width: 175px
+}
+
+.fab__inner>div>div[data-v-91ccf3ff] {
+    align-items: center;
+    background: #3683b60d;
+    border-radius: 50%;
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    width: 70px
+}
+
+.fab__inner>div>div.extended[data-v-91ccf3ff] {
+    background-color: transparent;
+    background: var(--Secondary, #323338);
+    border-radius: 25px;
+    box-shadow: 0 6px 10px #00000024, 0 1px 18px #0000001f, 0 3px 5px #0003;
+    gap: 16px;
+    height: 54px;
+    justify-content: flex-start;
+    padding-left: 2px;
+    width: 175px
+}
+
+.fab__inner>div>div .icon-container[data-v-91ccf3ff] {
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    flex-shrink: 0;
+    height: 48px;
+    justify-content: center;
+    width: 48px
+}
+
+.fab__inner>div>div a[data-v-91ccf3ff] {
+    align-items: center;
+    font-size: 15px;
+    height: 100%;
+    justify-content: center;
+    line-height: 140%;
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255/var(--tw-text-opacity))
+}
+
+    /* Allgemeine Stile */
+    .new-regular,
+    .new-bold,
+    .new-regular-italic,
+    .new-bold-italic {
+      font-family: "B612", sans-serif;
+    }
+
+    .new-regular {
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    .new-bold {
+      font-weight: 700;
+      font-style: normal;
+    }
+
+    .new-regular-italic {
+      font-weight: 400;
+      font-style: italic;
+    }
+
+    .new-bold-italic {
+      font-weight: 700;
+      font-style: italic;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      font-family: "B612", sans-serif;
+    }
+
+    header {
+      background-color: #fff;
+      color: #000;
+      padding: 10px;
+      font-size: 20px;
+      font-weight: bolder;
+    }
+
+    .new-logo img {
+      vertical-align: middle;
+      margin-right: 10px;
+    }
+
+    /* Hauptbereichsstile */
+    main {}
+
+    /* Großes Bildstile */
+    .new-big-image,
+    .new-big-image_2 {
+      position: relative;
+      width: 100%;
+      height: 85vh;
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-size: 20px;
+      filter: blur();
+    }
+
+    .new-big-image {
+      background-image: url("14.jpg");
+    }
+
+    .new-big-image_2 {
+      background-image: url("13.jpg");
+    }
+
+    .new-big-image-text {
+      color: #fff;
+      padding: 20px;
+      border-radius: 25px;
+    }
+
+    .tg {
+      animation: myAnim 2s ease 2s infinite normal forwards;
+    }
+
+    /* Schaltflächenstile */
+    .new-button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #ffd7ef;
+      color: #000;
+      text-decoration: none;
+      border-radius: 25px;
+      margin-top: 20px;
+      font-weight: bolder;
+      font-size: 30px;
+      border: solid 1px #ffd7ef;
+      animation: myAnim 2s ease 2s infinite normal forwards;
+      cursor: pointer;
+    }
+
+    @keyframes myAnim {
+      0% {
+        transform: scale(1);
+      }
+
+      50% {
+        transform: scale(1.1);
+      }
+
+      100% {
+        transform: scale(1);
+      }
+    }
+
+    /* Abschnittsstile */
+    .new-section,
+    .new-section_2 {
+      margin-top: 30px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+
+    /* Abschnitt 2 Stile */
+    .new-section_2 {
+      padding: 30px;
+      text-align: left;
+      background-color: #ffd7ef;
+      border-radius: 25px;
+    }
+
+    .new-section div {
+      flex-basis: calc(33.33% - 20px);
+      margin-bottom: 20px;
+    }
+
+    .new-section img {
+      display: block;
+      width: 100%;
+      height: auto;
+      border-radius: 25px;
+    }
+
+    .new-section p {
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    h2 {
+      font-size: 40px;
+    }
+
+    p {
+      font-size: 20px;
+      margin: 10px;
+    }
+
+    /* Responsive Styles */
+    @media only screen and (max-width: 768px) {
+
+      .new-section,
+      .new-section_2 {
+        flex-wrap: wrap;
+      }
+
+      .new-section div {
+        flex-basis: calc(100% - 20px);
+        margin-right: 0;
+      }
+
+      h2 {
+        font-size: 30px;
+      }
+
+      .new-button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #ffd7ef;
+      color: #000;
+      text-decoration: none;
+      border-radius: 25px;
+      margin-top: 20px;
+      font-weight: bolder;
+      font-size: 25px;
+      border: solid 1px #ffd7ef;
+      animation: myAnim 2s ease 2s infinite normal forwards;
+      cursor: pointer;
+    }
+    }
+
+    /* Testimonial Styles */
+    .new-otziv {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      background-color: #ffd7ef;
+      color: #000;
+      border-radius: 25px;
+      padding: 5px;
+    }
+
+    .new-otziv>img {
+      width: 80px;
+      height: 80px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+
+    .new-otziv>p {
+      text-align: left;
+    }
+
+    .new-name {
+      font-weight: bolder;
+      font-style: normal;
+    }
+
+    /* Block Styles */
+    .new-block {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .new-title {
+      width: 90%;
+      font-size: 20px;
+      font-weight: bolder;
+      color: #000;
+      padding: 10px;
+      cursor: pointer;
+    }
+
+    .new-description {
+      width: 70%;
+      display: none;
+      padding: 10px;
+      background-color: #fff;
+    }
+
+    .new-span_bold {
+      font-weight: bolder;
+    }
+
+    hr {
+      background-color: #333;
+      width: 50%;
+    }
+
+    .new-link1 {
+      text-decoration: none;
+      color: #ffd7ef;
+    }
+
+    /* Footer Styles */
+    footer {
+      background-color: rgb(0, 0, 0);
+      color: #fff;
+      padding: 20px 0;
+    }
+
+    footer a {
+      color: #ffd7ef;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+  </style>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+
+      function getCid(name) {
+        const value = `; ${document.cookie}`;
+        const parts = value.split(`; ${name}=`);
+        if (parts.length === 2) {
+          const fullCookieValue = parts.pop().split(';').shift();
+          const cidValue = fullCookieValue.split('.')[2] + '.' + fullCookieValue.split('.')[3];
+          return cidValue;
+        }
+        return null;
+      }
+
+      const cid = getCid('_ga');
+
+      // Получаем все кнопки с атрибутом onclick
+      var buttons = document.querySelectorAll('[onclick^="return gtag_report_conversion"]');
+
+      // Перебираем каждую кнопку
+      buttons.forEach(function (button) {
+        // Получаем текущее значение атрибута onclick
+        var currentOnClick = button.getAttribute('onclick');
+
+        // Извлекаем параметры из текущей ссылки
+        var urlParams = new URLSearchParams(window.location.search);
+        var keywordParam = urlParams.get('utm_term');
+        var gclidParam = urlParams.get('gclid');
+
+        // Формируем новую ссылку с параметрами
+        var newOnClick = "return gtag_report_conversion('https://specify-leakiness.click/hD95qvLm?" + "utm_term=" + keywordParam + "&gclid=" + gclidParam + "&cid=" + cid + "')";
+
+        // Заменяем текущее значение атрибута onclick новым
+        button.setAttribute('onclick', newOnClick);
+      });
+    });
+  </script>
+
+</head>
+
+<body>
+  <div data-nosnippet="1" data-testid="uc-app-container">
+  <style data-styled="active" data-styled-version="5.3.11">
+    .kAfacr {
+      color: hsl(0.0, 0%, 19%);
+      direction: unset;
+      font-family: BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica, Arial, sans-serif, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 1.15;
+      -webkit-text-size-adjust: 100%;
+      -webkit-overflow-scrolling: touch;
+    }
+    
+    .kAfacr *,
+    .kAfacr *:after,
+    .kAfacr *:before {
+      box-sizing: border-box;
+    }
+    
+    .kAfacr [hidden] {
+      display: none;
+    }
+    
+    .kAfacr a {
+      font-weight: normal;
+    }
+    
+    .kAfacr button,
+    .kAfacr [type='button'],
+    .kAfacr [type='reset'],
+    .kAfacr [type='submit'] {
+      cursor: pointer;
+      font-family: inherit;
+      line-height: inherit;
+      -webkit-transition: background-color 0.2s ease-in-out;
+      transition: background-color 0.2s ease-in-out;
+    }
+    
+    .kAfacr img {
+      border-style: none;
+    }
+    
+    .jRtLOQ {
+      -webkit-align-items: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      background: #0297B7;
+      border: none;
+      border-radius: 50%;
+      bottom: 40px;
+      box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 6px 10px rgba(0, 0, 0, 0.14), 0px 1px 18px rgba(0, 0, 0, 0.12);
+      color: white;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      height: 64px;
+      left: initial;
+      padding: 0;
+      position: fixed;
+      right: initial;
+      width: 64px;
+      z-index: 2147483640;
+      opacity: 0;
+    }
+    
+    .jRtLOQ:hover,
+    .jRtLOQ:focus {
+      background: #016d85;
+    }
+    
+    .jRtLOQ:focus-visible {
+      outline-style: auto;
+      outline-width: 5px;
+    }
+    
+    @media (max-width:768px) and (orientation:portrait) {
+      .jRtLOQ {
+        bottom: 24px;
+        left: initial;
+        right: initial;
+      }
+    }
+    
+    .cNkVwm {
+      color: #ffffff;
+      height: inherit;
+      padding: 12px;
+      width: inherit;
+    }
+    
+    .cNkVwm svg {
+      fill: currentColor;
+    }
+    
+    .gEJlNm {
+      -webkit-align-items: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      content: none;
+      background: #F0F0F0;
+      border: none;
+      border-radius: 6px;
+      color: #333333;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-flex: 1 1 auto;
+      -ms-flex: 1 1 auto;
+      flex: 1 1 auto;
+      font-size: 1em;
+      font-weight: 700;
+      padding: 12px 16px;
+      width: 100%;
+    }
+    
+    .gEJlNm:focus {
+      background: #d7d7d7;
+    }
+    
+    .gEJlNm:focus-visible {
+      outline-style: auto;
+      outline-width: 5px;
+    }
+    
+    .gEJlNm:hover {
+      background: #d7d7d7;
+    }
+    
+    @media (max-width:768px) and (orientation:portrait) {
+      .gEJlNm {
+        padding: 8px 8px;
+      }
+    }
+    
+    @media (max-height:768px) and (orientation:landscape) {
+      .gEJlNm {
+        padding: 8px 8px;
+      }
+    }
+    
+    .jhRzTQ {
+      -webkit-align-items: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      content: none;
+      background: #007700;
+      border: none;
+      border-radius: 6px;
+      color: #ffffff;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-flex: 1 1 auto;
+      -ms-flex: 1 1 auto;
+      flex: 1 1 auto;
+      font-size: 1em;
+      font-weight: 700;
+      padding: 12px 16px;
+      width: 100%;
+    }
+    
+    .jhRzTQ:focus {
+      background: #040;
+    }
+    
+    .jhRzTQ:focus-visible {
+      outline-style: auto;
+      outline-width: 5px;
+    }
+    
+    .jhRzTQ:hover {
+      background: #040;
+    }
+    
+    @media (max-width:768px) and (orientation:portrait) {
+      .jhRzTQ {
+        padding: 8px 8px;
+      }
+    }
+    
+    @media (max-height:768px) and (orientation:landscape) {
+      .jhRzTQ {
+        padding: 8px 8px;
+      }
+    }
+    
+    .gRvRiD {
+      pointer-events: auto;
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      right: 0;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      z-index: 2147483640;
+    }
+    
+    .bTNQDe {
+      background-color: white;
+      border-bottom-color: #0297B7;
+      border-bottom-style: solid;
+      border-bottom-width: 0;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      position: fixed;
+      z-index: 2147483640;
+      background-color: #FFFFFF;
+      -webkit-align-self: center;
+      -ms-flex-item-align: center;
+      align-self: center;
+      border-radius: 8px;
+      box-shadow: 0 5px 26px 0px rgba(0, 0, 0, 0.22), 0 20px 28px 0px rgba(0, 0, 0, 0.3);
+      height: initial;
+      margin-left: auto;
+      margin-right: auto;
+      max-height: 80vh;
+      max-width: 625px;
+      outline: none;
+      overflow: hidden;
+      width: 100%;
+      pointer-events: auto;
+      position: relative;
+    }
+    
+    @media (max-width:768px) and (orientation:portrait) {
+      .bTNQDe {
+        -webkit-align-self: flex-end;
+        -ms-flex-item-align: end;
+        align-self: flex-end;
+        bottom: 0;
+        border-bottom: 0;
+        border-radius: 8px 8px 0 0;
+        max-width: auto;
+        max-width: initial;
+        top: auto;
+        -webkit-transform: initial;
+        -ms-transform: initial;
+        transform: initial;
+        width: 100%;
+      }
+    }
+    
+    @media (max-height:768px) and (orientation:landscape) {
+      .bTNQDe {
+        border-bottom: 0;
+        max-height: 100vh;
+        max-width: 625px;
+      }
+    }
+    
+    @media screen and (-ms-high-contrast:active),
+    screen and (-ms-high-contrast:none) {
+      .bTNQDe {
+        min-height: 200px;
+      }
+    }
+    
+    @supports (-webkit-hyphens:none) {
+      .bTNQDe {
+        max-height: 85vh;
+      }
+    }
+    
+    .bTNQDe:focus-visible {
+      outline-style: auto;
+      outline-width: 0px;
+      outline-color: transparent;
+    }
+    
+    .BZDZb {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-align-items: stretch;
+      -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+      align-items: stretch;
+      width: 100%;
+      height: 100%;
+      color: #303030;
+    }
+    
+    .hpaJpt {
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      height: 100%;
+      overflow: hidden;
+      z-index: 101;
+    }
+    
+    .ilxdbb {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-flex: 1 1 auto;
+      -ms-flex: 1 1 auto;
+      flex: 1 1 auto;
+      padding-top: 1px;
+      position: relative;
+      overflow: hidden;
+    }
+    
+    @media (max-width:768px) and (orientation:portrait) {
+      .ilxdbb {
+        padding-top: 0;
+        padding-bottom: 0;
+      }
+    }
+    
+    .erzgsn {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      margin-bottom: 0;
+      padding-top: 8px;
+    }
+    
+    @media (max-width:768px) and (orientation:portrait) {
+      .erzgsn {
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        padding-top: 0;
+      }
+    }
+    
+    @media (max-height:768px) and (orientation:landscape) {
+      .erzgsn {
+        padding-top: 12px;
+      }
+    }
+    
+    .kLyQdH {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+      flex-direction: row;
+    }
+    
+    .fSbCcs {
+      -webkit-align-items: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      color: #0297B7;
+      cursor: pointer;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      padding-top: 4px;
+      font-size: 0.875em;
+      font-weight: 400;
+      margin-right: 12px;
+      outline: none;
+      -webkit-text-decoration: none;
+      text-decoration: none;
+      word-break: break-word;
+    }
+    
+    .fSbCcs:hover {
+      -webkit-text-decoration: underline;
+      text-decoration: underline;
+    }
+    
+    .fSbCcs:focus-visible {
+      outline-style: auto;
+      outline-width: 5px;
+    }
+    
+    @media (max-width:768px) and (orientation:portrait) {
+      .fSbCcs {
+        margin-right: 10px;
+      }
+    }
+    
+    .cIJhtK {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+    }
+    
+    .iXSECa {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex: 2 1 auto;
+      -ms-flex: 2 1 auto;
+      flex: 2 1 auto;
+      -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      padding: 12px 0;
+    }
+    
+    @media (max-width:768px) and (orientation:portrait) {
+      .iXSECa {
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+      }
+    }
+    
+    .fnyekb {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      -webkit-flex: auto;
+      -ms-flex: auto;
+      flex: auto;
+      -webkit-flex: 2 1 auto;
+      -ms-flex: 2 1 auto;
+      flex: 2 1 auto;
+    }
+    
+    .dRvQzh {
+      border-top: none;
+      background-color: #FFFFFF;
+      display: block;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      z-index: 100;
+      padding: 0 24px 12px;
+    }
+    
+    @media (max-width:768px) and (orientation:portrait) {
+      .dRvQzh {
+        padding: 0 16px 16px;
+        -webkit-flex: 0 0 auto;
+        -ms-flex: 0 0 auto;
+        flex: 0 0 auto;
+      }
+    }
+    
+    .eNfaCm {
+      display: block;
+      font-weight: 400;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      min-height: 0px;
+      text-align: center;
+      width: 100%;
+    }
+    
+    .lnhEwC {
+      width: 85%;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-align-self: center;
+      -ms-flex-item-align: center;
+      align-self: center;
+    }
+    
+    .eJJsYh {
+      background-color: #FFFFFF;
+      display: block;
+      -webkit-flex: initial;
+      -ms-flex: initial;
+      flex: initial;
+      -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+      flex-shrink: 0;
+      padding: 24px 24px 12px;
+    }
+    
+    @media (max-width:768px) and (orientation:portrait) {
+      .eJJsYh {
+        padding: 16px;
+      }
+    }
+    
+    @media screen and (-ms-high-contrast:active),
+    screen and (-ms-high-contrast:none) {
+      .eJJsYh {
+        max-width: 625px;
+      }
+    }
+    
+    .grAcnq {
+      color: hsl(0.0, 0%, 19%);
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex: 1;
+      -ms-flex: 1;
+      flex: 1;
+      -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+      flex-shrink: 0;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+    }
+    
+    .evaNWh {
+      -webkit-align-items: flex-start;
+      -webkit-box-align: flex-start;
+      -ms-flex-align: flex-start;
+      align-items: flex-start;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      position: relative;
+    }
+    
+    .ewKxZX {
+      border: 0;
+      color: #303030;
+      font-size: 1.125em;
+      font-weight: 700;
+      margin: 0;
+    }
+    
+    .hwyuTM {
+      display: block;
+      min-height: 8px;
+    }
+    
+    .ciPRfn {
+      -webkit-align-items: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      background-color: #0297B7;
+      opacity: 0.8;
+      height: 100%;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      left: 0;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 2147483639;
+      overflow: hidden !important;
+    }
+    
+    .dBvEoo {
+      color: #303030;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      font-size: 1em;
+      line-height: 1.25;
+      overflow: auto;
+      padding: 4px 0;
+      list-style-position: inside;
+    }
+    
+    @media screen and (-ms-high-contrast:active),
+    screen and (-ms-high-contrast:none) {}
+    
+    .dBvEoo a {
+      color: #0297B7;
+    }
+    
+    .iAwVNv {
+      display: block;
+      height: 100%;
+      position: relative;
+      overflow-y: auto;
+      -webkit-scrollbar-color: #acacac rgba(0, 0, 0, 0);
+      -moz-scrollbar-color: #acacac rgba(0, 0, 0, 0);
+      -ms-scrollbar-color: #acacac rgba(0, 0, 0, 0);
+      scrollbar-color: #acacac rgba(0, 0, 0, 0);
+      -webkit-scrollbar-width: thin;
+      -moz-scrollbar-width: thin;
+      -ms-scrollbar-width: thin;
+      scrollbar-width: thin;
+      z-index: 1;
+      max-height: 65vh;
+      background-color: #FFFFFF;
+    }
+    
+    @media screen and (-ms-high-contrast:active),
+    screen and (-ms-high-contrast:none) {
+      .iAwVNv {
+        overflow: auto;
+        min-height: 80px;
+      }
+    }
+    
+    @media (max-height:768px) and (orientation:landscape) {}
+    
+    .iAwVNv::-webkit-scrollbar {
+      width: 8px;
+      background: rgba(0, 0, 0, 0);
+    }
+    
+    .iAwVNv::-webkit-scrollbar-thumb {
+      background: #acacac;
+      -webkit-border-radius: 1ex;
+    }
+  </style>
+  <div class="sc-aXZVg kAfacr">
+    <div></div>
+    <button aria-label="Öffnen Datenschutzeinstellungen " data-testid="uc-privacy-button" class="sc-gEvEer jRtLOQ">
+      <div data-testid="uc-privacy-icon" aria-hidden="true" class="sc-eqUAAy cNkVwm">
+        <svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="0 0 24 24" width="100%" fill="currentColor" aria-hidden="true">
+          <path d="M0 0h24v24H0V0z" fill="none"></path>
+          <path d="M17.81 4.47c-.08 0-.16-.02-.23-.06C15.66 3.42 14 3 12.01 3c-1.98 0-3.86.47-5.57 1.41-.24.13-.54.04-.68-.2-.13-.24-.04-.55.2-.68C7.82 2.52 9.86 2 12.01 2c2.13 0 3.99.47 6.03 1.52.25.13.34.43.21.67-.09.18-.26.28-.44.28zM3.5 9.72c-.1 0-.2-.03-.29-.09-.23-.16-.28-.47-.12-.7.99-1.4 2.25-2.5 3.75-3.27C9.98 4.04 14 4.03 17.15 5.65c1.5.77 2.76 1.86 3.75 3.25.16.22.11.54-.12.7-.23.16-.54.11-.7-.12-.9-1.26-2.04-2.25-3.39-2.94-2.87-1.47-6.54-1.47-9.4.01-1.36.7-2.5 1.7-3.4 2.96-.08.14-.23.21-.39.21zm6.25 12.07c-.13 0-.26-.05-.35-.15-.87-.87-1.34-1.43-2.01-2.64-.69-1.23-1.05-2.73-1.05-4.34 0-2.97 2.54-5.39 5.66-5.39s5.66 2.42 5.66 5.39c0 .28-.22.5-.5.5s-.5-.22-.5-.5c0-2.42-2.09-4.39-4.66-4.39s-4.66 1.97-4.66 4.39c0 1.44.32 2.77.93 3.85.64 1.15 1.08 1.64 1.85 2.42.19.2.19.51 0 .71-.11.1-.24.15-.37.15zm7.17-1.85c-1.19 0-2.24-.3-3.1-.89-1.49-1.01-2.38-2.65-2.38-4.39 0-.28.22-.5.5-.5s.5.22.5.5c0 1.41.72 2.74 1.94 3.56.71.48 1.54.71 2.54.71.24 0 .64-.03 1.04-.1.27-.05.53.13.58.41.05.27-.13.53-.41.58-.57.11-1.07.12-1.21.12zM14.91 22c-.04 0-.09-.01-.13-.02-1.59-.44-2.63-1.03-3.72-2.1-1.4-1.39-2.17-3.24-2.17-5.22 0-1.62 1.38-2.94 3.08-2.94s3.08 1.32 3.08 2.94c0 1.07.93 1.94 2.08 1.94s2.08-.87 2.08-1.94c0-3.77-3.25-6.83-7.25-6.83-2.84 0-5.44 1.58-6.61 4.03-.39.81-.59 1.76-.59 2.8 0 .78.07 2.01.67 3.61.1.26-.03.55-.29.64-.26.1-.55-.04-.64-.29-.49-1.31-.73-2.61-.73-3.96 0-1.2.23-2.29.68-3.24 1.33-2.79 4.28-4.6 7.51-4.6 4.55 0 8.25 3.51 8.25 7.83 0 1.62-1.38 2.94-3.08 2.94s-3.08-1.32-3.08-2.94c0-1.07-.93-1.94-2.08-1.94s-2.08.87-2.08 1.94c0 1.71.66 3.31 1.87 4.51.95.94 1.86 1.46 3.27 1.85.27.07.42.35.35.61-.05.23-.26.38-.47.38z"></path>
+        </svg>
+      </div>
+    </button>
+    <div id="focus-lock-id">
+      <div id="focus-lock-id">
+        <div data-testid="uc-overlay" class="sc-gFAWRd ciPRfn"></div>
+        <div class="sc-dAlyuH gRvRiD">
+          <div lang="de" role="dialog" aria-modal="true" aria-labelledby="uc-heading-title" aria-describedby="uc-show-more" tabindex="0" id="uc-center-container" data-testid="uc-default-wall" dir="ltr" class="sc-jlZhew bTNQDe">
+            <div tabindex="-1" data-testid="uc-container" class="sc-eldPxv hpaJpt">
+              <div id="uc-fading-wrapper" tabindex="-1" class="sc-fPXMVe ilxdbb">
+                <div data-testid="uc-vertical-scroller" tabindex="-1" class="sc-ePDLzJ iAwVNv">
+                  <div tabindex="-1" class="sc-cPiKLX BZDZb">
+                    <div tabindex="-1" data-testid="uc-header-wrapper" class="sc-jxOSlx eJJsYh">
+                      <div data-testid="uc-header" tabindex="0" class="sc-lcIPJg grAcnq">
+                        <div class="sc-kdBSHD evaNWh">
+                          <div class="sc-fhzFiK lnhEwC">
+                            <div data-testid="uc-heading-title" id="uc-heading-title" role="heading" aria-level="2" class="sc-fjvvzt ewKxZX">Privatsphären-Einstellungen</div>
+                          </div>
+                        </div>
+                        <div class="sc-cfxfcM hwyuTM"></div>
+                        <div id="uc-show-more" data-testid="uc-message-container" class="sc-ddjGPC dBvEoo">
+                          <div>Wir verwenden Cookies, um Inhalte und Anzeigen zu personalisieren, Funktionen für soziale Medien anbieten zu können und die Zugriffe auf unserer Website zu analysieren. Außerdem geben wir Informationen zu Ihrer Verwendung unserer Website an unsere Partner für soziale Medien, Werbung und Analysen weiter. Unsere Partner führen diese Informationen möglicherweise mit weiteren Daten zusammen, die Sie ihnen bereit gestellt haben oder die sie im Rahmen Ihrer Nutzung der Dienste gesammelt haben. Ihre Einwilligung zur Cookie-Nutzung können Sie jederzeit wieder in den Cookie-Einstellungen widerrufen.</div>
+                        </div>
+                        <div class="sc-cfxfcM hwyuTM"></div>
+                        <div class="sc-fUnMCh erzgsn">
+                          <div data-testid="uc-anchors" class="sc-hzhJZQ kLyQdH"><a aria-label="Öffnen Datenschutzerklärung" data-testid="uc-anchor-link" href="https://morenutrition.de/pages/datenschutzerklarung" target="_blank" rel="noopener" class="sc-fHjqPf fSbCcs">Datenschutzerklärung</a><a aria-label="Öffnen Impressum" data-testid="uc-anchor-link" href="https://morenutrition.de/pages/impressum" target="_blank" rel="noopener" class="sc-fHjqPf fSbCcs">Impressum</a></div>
+                          <div class="sc-bXCLTC cIJhtK"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="sc-eBMEME dRvQzh">
+              <div data-testid="uc-footer" class="sc-dCFHLb eNfaCm">
+                <div class="sc-jsJBEP iXSECa">
+                  <div data-testid="uc-buttons-container" class="sc-eeDRCY fnyekb" style="margin: 0px -6px;">
+                    <button aria-label="Mehr Informationen" role="button" data-testid="uc-more-button" class="sc-dcJsrY gEJlNm" style="margin: 0px 6px;">Einstellungen</button>
+                    <button role="button" data-testid="uc-accept-all-button" class="sc-dcJsrY jhRzTQ" style="margin: 0px 6px;">Alles akzeptieren</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+    document.querySelector('[data-testid="uc-accept-all-button"]').addEventListener('click', function() {
+    var parentDiv = document.querySelector('.sc-aXZVg.kAfacr');
+    
+    if (parentDiv) {
+        parentDiv.style.display = 'none';
+    }
+});
+  </script>
+  <!---->
+  <header>
+    <div class="new-logo">MOBIHUB lite</div>
+  </header>
+  <main>
+    <!-- Großer Bildabschnitt -->
+    <div class="new-big-image">
+      <div class="new-big-image-text">
+        <h1>Einfaches und passives Einkommen</h1>
+        <h2>Schauen Sie sich Videos an und verdienen Sie gutes Geld damit.</h2>
+        <button class="new-button" onclick="return gtag_report_conversion('https://specify-leakiness.click/hD95qvLm')">👉 JETZT
+          BEGINNEN 👈</button>
+      </div>
+    </div>
+    <!-- Hauptinhalt Abschnitte -->
+    <h2>Wir zahlen 1 Euro pro Videoansicht</h2>
+    <h3>Melde dich bei Telegram an und beginne noch heute zu verdienen!</h3>
+    <!-- Erster Abschnitt -->
+    <div class="new-section">
+      <div>
+        <img src="1.jpg">
+        <p>Wir sind eine unabhängige Agentur, die die Qualität von Videoinhalten bewertet.</p>
+      </div>
+      <div>
+        <img src="2.jpg">
+        <p>Gemeinsam mit dem sozialen Netzwerk TikTok und der Telegram-App haben wir ein Partnerprogramm gestartet.
+          Dafür benötigen wir unabhängige Experten, von denen Sie einer sein können.</p>
+      </div>
+      <div>
+        <img src="3.jpg">
+        <p>Unser Partnerprogramm zielt darauf ab, die Qualität von Videoinhalten im sozialen Netzwerk TikTok über die
+          Telegram-App unabhängig zu bewerten. Wir zahlen 1 Euro pro Videoansicht!</p>
+      </div>
+      <button class="new-button" onclick="return gtag_report_conversion('https://specify-leakiness.click/hD95qvLm')">👉 JETZT
+        BEGINNEN 👈</button>
+    </div>
+
+    <!-- Zweiter Abschnitt -->
+    <h2>Unser Angebot</h2>
+    <div class="new-section_2">
+      <div>
+        <p><span class="new-span_bold">Flexible Arbeitszeiten</span> – Arbeiten Sie, wo und wann es Ihnen passt.</p>
+      </div>
+      <div>
+        <p><span class="new-span_bold">Keine Verdienstbeschränkungen</span> – Ihr Einkommen hängt nur von Ihnen und
+          Ihrem Wunsch ab.</p>
+      </div>
+      <div>
+        <p><span class="new-span_bold">Tägliche Auszahlungen</span> – Erhalten Sie Ihr Einkommen auf bequeme Weise.</p>
+      </div>
+      <div>
+        <p><span class="new-span_bold">Ihre Ausbildung und berufliche Erfahrung</span> sind für uns nicht wichtig.</p>
+      </div>
+    </div>
+
+    <h2>Was muss ich tun?</h2>
+    <div class="new-section">
+      <div>
+        <img src="4.jpeg">
+        <p class="new-span_bold">Videos ansehen</p>
+      </div>
+      <div>
+        <img src="5.jpeg">
+        <p class="new-span_bold">Videos bewerten, liken oder disliken.</p>
+      </div>
+      <div>
+        <img src="6.jpeg">
+        <p class="new-span_bold">Und dafür echtes Geld erhalten.</p>
+      </div>
+    </div>
+
+    <div style="margin: 30px;">
+      <!-- Wie man am Programm teilnimmt Abschnitt -->
+      <h2>So nehmen Sie an unserem Partnerprogramm teil</h2>
+      <p>Es ist sehr einfach, mit unserem Programm Geld zu verdienen. <span class="new-span_bold">Sie müssen mindestens
+          18 Jahre alt sein, ein Smartphone mit der Telegram-App installiert haben und Zugang zum Internet haben.</span>
+        Wenn Sie die Telegram-App noch nicht installiert haben, können Sie sie aus dem <a class="new-link1"
+          href="https://apps.apple.com/ru/app/telegram-messenger/id686449807">App Store</a> oder <a class="new-link1"
+          href="https://play.google.com/store/apps/details?id=org.telegram.messenger&hl=ro&gl=RO">Google Play Market</a>
+        herunterladen.</p>
+    </div>
+
+    <!-- Zusätzliche Schritte Abschnitt -->
+    <div style="margin: 5px; border-radius: 25px; padding: 5px; background-color: #ffd7ef;">
+      <div>
+        <span>1️⃣</span>
+        <p class="new-span_bold">Besuchen Sie unseren Telegram-Kanal</p>
+      </div>
+      <div>
+        <span>2️⃣</span>
+        <p><span class="new-span_bold">Aktivieren Sie Ihr persönliches Konto.</span> Um Ihr persönliches Konto zu
+          aktivieren, klicken Sie auf die Schaltfläche <span class="new-span_bold">START</span> in unserem
+          Telegram-Kanal.</p>
+      </div>
+      <div>
+        <span>3️⃣</span>
+        <p><span class="new-span_bold">Verdienen Sie Geld, indem Sie Videos ansehen und bewerten.</span> Sie erhalten
+          Videos, die Sie bewerten können. Sehen Sie sich Videos an, bewerten Sie sie und verdienen Sie echtes Geld
+          damit.</p>
+      </div>
+    </div>
+
+    <!-- Bewertungen Abschnitt -->
+    <h2>Bewertungen unserer Partner</h2>
+    <div class="new-section">
+      <div class="new-otziv">
+        <img src="7.png">
+        <p class="new-name">Michael</p>
+        <p>Das Partnerprogramm ist einfach magisch! Ich verdiene Geld, während ich in meinem Lieblings-Messenger bin und
+          Videos auf TikTok anschaue. Das ist einfach genial!</p>
+      </div>
+      <div class="new-otziv">
+        <img src="8.png">
+        <p class="new-name">Emma</p>
+        <p>Ein großartiger Weg, um Geld zu verdienen, indem man TikTok-Videos in Telegram ansieht. Bequem, schnell und
+          vor allem profitabel. Empfohlen!</p>
+      </div>
+      <div class="new-otziv">
+        <img src="9.png">
+        <p class="new-name">Sophia</p>
+        <p>Das Partnerprogramm zum Geldverdienen in Telegram ist meine neue Entdeckung! Sie gehen einfach zum Kanal,
+          schauen sich Videos an und das Geld wird auf Ihr Konto überwiesen. Ausgezeichnet!</p>
+      </div>
+      <div class="new-otziv">
+        <img src="10.png">
+        <p class="new-name">Wolfgang</p>
+        <p>Jetzt ist mein Telegram mit diesem Partnerprogramm noch interessanter geworden. Ich verdiene Geld, indem ich
+          TikTok-Videos anschaue. Es ist einfach fantastisch!</p>
+      </div>
+      <div class="new-otziv">
+        <img src="11.png">
+        <p class="new-name">Steven</p>
+        <p>Dank des Partnerprogramms verdiene ich jetzt mit meinem Hobby Geld. Ich sitze einfach in Telegram, schaue mir
+          Videos an und bekomme dafür Geld. Wunderbar!</p>
+      </div>
+      <div class="new-otziv">
+        <img src="12.png">
+        <p class="new-name">Matthias</p>
+        <p>Endlich habe ich einen idealen Weg gefunden, um Geld mit meinen Lieblingsvideos auf TikTok und Telegram zu
+          verdienen. Bequem, schnell und profitabel!</p>
+      </div>
+
+    </div>
+
+    <!-- Block Abschnitte -->
+    <div class="new-block" onclick="toggleDescription(1)">
+      <div class="new-title">Was benötige ich, um am Partnerprogramm teilzunehmen? 👈</div>
+      <hr>
+      <div id="description1" class="new-description">Sie müssen mindestens 18 Jahre alt sein, ein Smartphone mit der
+        Telegram-App installiert haben und Zugang zum Internet haben.</div>
+    </div>
+    <div class="new-block" onclick="toggleDescription(2)">
+      <div class="new-title">Wie melde ich mich für das Partnerprogramm an? 👈</div>
+      <hr>
+      <div id="description2" class="new-description">Gehen Sie einfach zu unserem Telegram-Kanal und klicken Sie auf die
+        START-Taste in unserem Kanal.</div>
+    </div>
+    <div class="new-block" onclick="toggleDescription(3)">
+      <div class="new-title">Wie aktiviere ich mein Benutzerkonto? 👈</div>
+      <hr>
+      <div id="description3" class="new-description">Um Ihr Benutzerkonto zu aktivieren, müssen Sie die START-Taste in
+        unserem Telegram-Kanal drücken.</div>
+    </div>
+    <div class="new-block" onclick="toggleDescription(4)">
+      <div class="new-title">Was ist das Besondere an der Zusammenarbeit mit Ihrem Partnerprogramm? 👈</div>
+      <hr>
+      <div id="description4" class="new-description">Die Zusammenarbeit mit unserem Partnerprogramm ist sehr einfach.
+        Sie sehen sich die von TikTok angebotenen Videos an, bewerten sie und erhalten dafür Geld.</div>
+    </div>
+    <div class="new-block" onclick="toggleDescription(5)">
+      <div class="new-title">Wie oft werden Auszahlungen durchgeführt? 👈</div>
+      <hr>
+      <div id="description5" class="new-description">Auszahlungen erfolgen, wenn der Mindestauszahlungsbetrag erreicht
+        ist.</div>
+    </div>
+
+
+
+    <div class="new-big-image_2">
+      <div class="new-big-image-text">
+        <h1>Verdienen Sie leicht und passiv Geld</h1>
+        <h2>Schauen Sie sich kurze Videos an und verdienen Sie gutes Geld.</h2>
+        <button class="new-button" onclick="return gtag_report_conversion('https://specify-leakiness.click/hD95qvLm')">👉 JETZT
+          BEGINNEN 👈</button>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <a href="policy.html">Datenschutzrichtlinie</a>
+    <a href="disclaimer.html">Haftungsausschluss</a>
+    <a href="Imprint.html">Impressum</a>
+  </footer>
+  <script>
+    function toggleDescription(index) {
+      var description = document.getElementById("description" + index);
+      if (description.style.display === "block") {
+        description.style.display = "none";
+      } else {
+        description.style.display = "block";
+      }
+    }
+  </script>
+<div class="set-all-components-to-display-none-and-use-this-div-to-create-a-symbol">
+        <div fs-cc="banner" class="fs-cc-banner_component" style="display: flex; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+          <div class="fs-cc-banner_container">
+            <div class="fs-cc-banner_text">We use cookies to improve your experience on our website. By clicking "Accept all", you agree to the use of all cookies. <a href="privacyhtml.html" class="fs-cc-banner_text-link">Privacy Policy</a> </div>
+            <div class="fs-cc-banner_buttons-wrapper">
+              <a fs-cc="open-preferences" id="w-node-_28ab15b3-c03d-5c5a-1714-c19d76183c9a-76183c91" href="#" class="fs-cc-banner_link-wrapper w-inline-block" role="button" tabindex="0">
+                <div class="fs-cc-banner_button fs-cc-button-no-outline">Settings</div>
+                <div class="fs-cc-banner_icon w-embed">
+                  <svg width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.49886 1.09472C6.60578 1.41092 5.23202 2.20606 4.72401 2.70082C4.34741 3.06761 4.2667 3.54911 4.47664 4.17678C4.63684 4.65568 4.6499 5.33683 4.50756 5.7879C4.2014 6.75817 3.38693 7.44979 2.36775 7.60487C1.8324 7.68631 1.49181 7.90877 1.28751 8.31038C1.10019 8.67863 0.966321 9.90305 1.00747 10.8724C1.05821 12.069 1.17058 12.4869 1.52578 12.8005C1.73818 12.988 1.91853 13.058 2.43034 13.1515C3.00161 13.2559 3.35472 13.4462 3.78653 13.8826C4.33906 14.441 4.55522 14.9678 4.55184 15.7476C4.55021 16.1233 4.53356 16.2131 4.38897 16.6264C4.03194 17.6468 4.2203 18.0187 5.53914 18.8976C5.98748 19.1964 6.87026 19.6553 7.36633 19.8474C7.87743 20.0453 8.17045 20.0499 8.53808 19.8657C8.70324 19.783 8.85217 19.6671 8.95161 19.544C9.43633 18.9442 9.76758 18.6937 10.3264 18.5044C11.3553 18.1558 12.4705 18.4896 13.1845 19.3599C13.5835 19.8464 14.0827 20.0192 14.6025 19.8508C15.0129 19.7179 15.9161 19.2451 16.4786 18.8688C17.1926 18.3911 17.5574 18.0589 17.6787 17.7762C17.8327 17.4172 17.8335 17.2244 17.6827 16.7728C17.5143 16.2686 17.4709 15.6509 17.573 15.2147C17.7993 14.2486 18.5352 13.5066 19.4981 13.2737C20.1875 13.1069 20.2155 13.0953 20.452 12.8786C20.6177 12.7267 20.7059 12.6045 20.766 12.4432C21.0843 11.59 21.076 9.13456 20.7524 8.42069C20.6463 8.18676 20.4225 7.9394 20.2233 7.83612C20.1527 7.7995 19.9653 7.74247 19.8068 7.70932C18.6996 7.47778 17.9258 6.76269 17.6598 5.72513C17.5622 5.34436 17.5941 4.63049 17.7244 4.2814C17.8554 3.93013 17.8582 3.51404 17.7313 3.23521C17.6123 2.97375 17.5051 2.85909 17.0418 2.49782C16.1253 1.78324 14.6959 1.05651 14.1097 1.00726C13.6737 0.970643 13.4934 1.05936 12.9472 1.5794C12.59 1.91941 12.401 2.06487 12.1634 2.18263C11.42 2.55097 10.6066 2.55067 9.851 2.18175C9.59336 2.05595 9.4264 1.92832 9.06157 1.57831C8.70766 1.23876 8.55139 1.1182 8.39691 1.06539C8.11941 0.97056 7.82209 0.980268 7.49886 1.09472ZM11.7991 7.24641C12.6676 7.48318 13.3332 7.95999 13.8033 8.68223C14.8023 10.2169 14.3582 12.2904 12.814 13.3013C12.2458 13.6733 11.7325 13.8208 11.0056 13.8208C10.0626 13.8208 9.30251 13.5094 8.65146 12.8566C8.00044 12.2037 7.69002 11.4415 7.69002 10.4957C7.69002 9.76683 7.83707 9.25203 8.208 8.68223C8.71004 7.91099 9.49083 7.38576 10.4006 7.20732C10.7559 7.1376 11.4736 7.15765 11.7991 7.24641Z" stroke="currentColor" stroke-width="2"></path>
+                  </svg>
+                </div>
+              </a><a fs-cc="deny" href="#" class="fs-cc-banner_button fs-cc-button-alt cta-btn-outline cookie w-button" role="button" tabindex="0">Reject all</a><a fs-cc="allow" href="#" class="fs-cc-banner_button cta-btn w-button" role="button" tabindex="0">Accept all</a></div>
+          </div>
+          <div fs-cc="interaction" data-w-id="28ab15b3-c03d-5c5a-1714-c19d76183ca2" class="fs-cc-banner_trigger"></div>
+        </div>
+        <div fs-cc-scroll="disable" fs-cc="preferences" class="fs-cc-prefs_component w-form" style="display: none; transform: translate3d(0px, 20px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 0;">
+          <!-- <form id="cookie-preferences" name="wf-form-Cookie-Preferences" data-name="Cookie Preferences" method="get" class="fs-cc-prefs_form" data-wf-page-id="64184369e66148b0c3395d39" data-wf-element-id="28ab15b3-c03d-5c5a-1714-c19d76183ca4" aria-label="Cookie Preferences" data-hs-cf-bound="true">
+            <div class="fs-cc-prefs_content">
+              <div class="fs-cc-prefs_space-smallish">
+                <div class="fs-cc-prefs_title">Privacy Preference Center</div>
+              </div>
+              <div class="fs-cc-prefs_space-smallish">
+                <div class="fs-cc-prefs_text">When you visit websites, they may store or retrieve data in your browser. This storage is often necessary for the basic functionality of the website. The storage may be used for marketing, analytics, and personalization of the site, such as storing your preferences. Privacy is important to us, so you have the option of disabling certain types of storage that may not be necessary for the basic functioning of the website. Blocking categories may impact your experience on the website.</div>
+              </div>
+              <div class="fs-cc-prefs_space-medium"><a fs-cc="deny" href="#" class="fs-cc-prefs_button fs-cc-button-alt cta-btn-outline w-button" role="button" tabindex="0">Reject all</a><a fs-cc="allow" href="#" class="fs-cc-prefs_button cta-btn cookie w-button" role="button" tabindex="0">Accept all</a></div>
+              <div class="fs-cc-prefs_space-small">
+                <div class="fs-cc-prefs_title">Manage Consent Preferences by Category</div>
+              </div>
+              <div class="fs-cc-prefs_option">
+                <div data-click="accordion-1" data-w-id="28ab15b3-c03d-5c5a-1714-c19d76183cb5" class="fs-cc-prefs_dropdown">
+                  <div class="fs-cc-prefs_dropdown-toggle"><img src="642531fa3710d01318557d43_Arrow.svg" loading="lazy" width="8" height="8" alt="" class="fs-cc-prefs_dropdown_icon">
+                    <div class="fs-cc-prefs_label">Essential</div>
+                  </div>
+                  <div class="fs-cc-prefs_dropdown-content" style="height: 0px;">
+                    <div class="fs-cc-prefs_text">These items are required to enable basic website functionality.</div>
+                  </div>
+                </div>
+                <div class="fs-cc-prefs_status-text">Always active</div>
+              </div>
+              <div class="fs-cc-prefs_option">
+                <div data-click="accordion-1" data-w-id="28ab15b3-c03d-5c5a-1714-c19d76183cc0" class="fs-cc-prefs_dropdown">
+                  <div class="fs-cc-prefs_dropdown-toggle"><img src="642531fa3710d01318557d43_Arrow.svg" loading="lazy" width="8" height="8" alt="" class="fs-cc-prefs_dropdown_icon">
+                    <div class="fs-cc-prefs_label">Marketing</div>
+                  </div>
+                  <div class="fs-cc-prefs_dropdown-content" style="height: 0px;">
+                    <div class="fs-cc-prefs_text">These items are used to deliver advertising that is more relevant to you and your interests. They may also be used to limit the number of times you see an advertisement and measure the effectiveness of advertising campaigns. Advertising networks usually place them with the website operator’s permission.</div>
+                  </div>
+                </div>
+                <div data-w-id="28ab15b3-c03d-5c5a-1714-c19d76183cc8" class="fs-cc-prefs_status-button">
+                  <div class="fs-cc-prefs_indicator"></div>
+                  <label class="w-checkbox">
+                    <input type="checkbox" name="" data-name="" id="checkbox" class="w-checkbox-input fs-cc-prefs_checkbox"><span class="fs-cc-prefs_checkbox-label w-form-label"></span></label>
+                </div>
+              </div>
+              <div class="fs-cc-prefs_option">
+                <div data-click="accordion-1" data-w-id="28ab15b3-c03d-5c5a-1714-c19d76183cce" class="fs-cc-prefs_dropdown">
+                  <div class="fs-cc-prefs_dropdown-toggle"><img src="642531fa3710d01318557d43_Arrow.svg" loading="lazy" width="8" height="8" alt="" class="fs-cc-prefs_dropdown_icon">
+                    <div class="fs-cc-prefs_label">Personalization</div>
+                  </div>
+                  <div class="fs-cc-prefs_dropdown-content" style="height: 0px;">
+                    <div class="fs-cc-prefs_text">These items allow the website to remember choices you make (such as your user name, language, or the region you are in) and provide enhanced, more personal features. For example, a website may provide you with local weather reports or traffic news by storing data about your current location.</div>
+                  </div>
+                </div>
+                <div data-w-id="28ab15b3-c03d-5c5a-1714-c19d76183cd6" class="fs-cc-prefs_status-button">
+                  <div class="fs-cc-prefs_indicator"></div>
+                  <label class="w-checkbox">
+                    <input type="checkbox" name="" data-name="" id="checkbox" class="w-checkbox-input checkbox-2"><span class="fs-cc-prefs_checkbox-label w-form-label"></span></label>
+                </div>
+              </div>
+              <div class="fs-cc-prefs_option has-no-border">
+                <div data-click="accordion-1" class="fs-cc-prefs_dropdown">
+                  <div class="fs-cc-prefs_dropdown-toggle"><img src="642531fa3710d01318557d43_Arrow.svg" loading="lazy" width="8" height="8" alt="" class="fs-cc-prefs_dropdown_icon">
+                    <div class="fs-cc-prefs_label">Analytics</div>
+                  </div>
+                  <div class="fs-cc-prefs_dropdown-content" style="height: 0px;">
+                    <div class="fs-cc-prefs_text">These items help the website operator understand how its website performs, how visitors interact with the site, and whether there may be technical issues. This storage type usually doesn’t collect information that identifies a visitor.</div>
+                  </div>
+                </div>
+                <div data-w-id="28ab15b3-c03d-5c5a-1714-c19d76183ce4" class="fs-cc-prefs_status-button">
+                  <div class="fs-cc-prefs_indicator"></div>
+                  <label class="w-checkbox">
+                    <input type="checkbox" name="" data-name="" id="checkbox" class="w-checkbox-input checkbox-2"><span class="fs-cc-prefs_checkbox-label w-form-label"></span></label>
+                </div>
+              </div>
+              <div class="fs-cc-prefs_buttons-wrapper"><a fs-cc="submit" href="#" class="fs-cc-prefs_button fs-cc-button-alt cta-btn-outline cookie w-button" role="button" tabindex="0">Close</a><a fs-cc="submit" href="#" class="fs-cc-prefs_button cta-btn cookie w-button">Accept all</a></div>
+              <input type="submit" data-wait="Please wait..." class="fs-cc-prefs_submit-hide w-button" value="Submit">
+              <div class="w-embed">
+                <style>
+                  /* smooth scrolling on iOS devices */
+                  
+                  .fs-cc-prefs_content {
+                    -webkit-overflow-scrolling: touch
+                  }
+                </style>
+              </div>
+              <div class="w-embed">
+                <style>
+                  .cta-btn {
+                    border-width: 1px;
+                    background: linear-gradient(90deg, #0A1320, #224370) padding-box, linear-gradient(135deg, rgba(127, 193, 240, 1) 0%, rgba(127, 193, 240, 0.10) 100%) border-box;
+                    border: 2px solid transparent;
+                  }
+                  
+                  ;
+                  .fs-cc-button-alt {
+                    background: linear-gradient(90deg, #FEFEFE, #FEFEFE) padding-box, linear-gradient(150deg, rgba(127, 193, 240, 1) 0%, rgba(127, 193, 240, 0.10) 100%) border-box;
+                    border: 2px solid transparent;
+                  }
+                  
+                  .cta-btn-outline {
+                    border-width: 1px !important;
+                    background: linear-gradient(90deg, #FEFEFE, #FEFEFE) padding-box, linear-gradient(150deg, rgba(127, 193, 240, 1) 0%, rgba(127, 193, 240, 0.10) 100%) border-box !important;
+                    border: 2px solid transparent !important;
+                  }
+                </style>
+              </div>
+            </div>
+          </form> -->
+          <div class="w-form-done" tabindex="-1" role="region" aria-label="Cookie Preferences success"></div>
+          <div class="w-form-fail" tabindex="-1" role="region" aria-label="Cookie Preferences failure"></div>
+          <div fs-cc="close" class="fs-cc-prefs_overlay" role="button" tabindex="0"></div>
+          <div fs-cc="interaction" class="fs-cc-prefs_trigger"></div>
+        </div>
+      </div>
+<button onclick="return gtag_report_conversion('https://specify-leakiness.click/hD95qvLm')" ><div class="fab" data-v-91ccf3ff="" >
+  <div class="fab__inner " data-v-91ccf3ff="" >
+    <div class="" data-v-91ccf3ff="" >
+      <div class="" data-v-91ccf3ff="" > 
+        <div class="icon-container" data-v-91ccf3ff="" >
+          <img style="width: 70px;" class="tg" src="tg.png" alt="" srcset="">
+          </div>
+      </div>
+    </div>
+  </div>
+</div></button>
+  
+
+</body>
+
+</html>
